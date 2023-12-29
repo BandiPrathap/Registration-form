@@ -1,0 +1,57 @@
+label{
+	font-weight:bold;
+}
+input{
+	border-radius:7px;
+}
+.studentBox{
+	background-image:linear-gradient(red,yellow);
+	height:100%;
+}
+
+#submitBtn{
+	background-image:repeating-radial-gradient(#fff,#00fffe);
+	border-radius:7px;
+	font-weight:bold;
+	color:#d2200aee;	
+}
+li{
+	background-image:radial-gradient(#55f4d3,white,#55f4d3);
+	border-radius:10px;
+	
+}
+img{
+	border-radius:50%;
+	margin:5px;
+	height:180px;
+	width:151px;
+	background-size:cover;
+	background-color:#17a2b8;
+}
+
+#studentDetails{
+	overflow:scroll;
+	height:500px;
+	margin-top:30px;
+};
+.note{
+	color:yellow;
+}
+.contact {
+	display: flex;
+	justify-content: space-around;
+	text-align:center;
+	margin-top: 20px;
+	background-color: #55f4d3;
+	color:white;
+}
+
+.contact a {
+	color: #333;
+	text-decoration: none;
+	transition: color 0.3s ease-in-out;
+}
+
+.contact a:hover {
+	color: #555;
+}
